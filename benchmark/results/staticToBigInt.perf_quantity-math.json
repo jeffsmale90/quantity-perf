@@ -1,0 +1,39 @@
+{
+  "name": "staticToBigInt",
+  "date": "2022-07-25T23:34:50.579Z",
+  "version": "perf_quantity-math",
+  "results": [
+    {
+      "name": "string",
+      "ops": 1734985,
+      "margin": 1.92,
+      "percentSlower": 84.09
+    },
+    {
+      "name": "number",
+      "ops": 3366562,
+      "margin": 0.16,
+      "percentSlower": 69.12
+    },
+    {
+      "name": "buffer",
+      "ops": 6729127,
+      "margin": 2.77,
+      "percentSlower": 38.28
+    },
+    {
+      "name": "bigint",
+      "ops": 10902953,
+      "margin": 0.66,
+      "percentSlower": 0
+    }
+  ],
+  "fastest": {
+    "name": "bigint",
+    "index": 3
+  },
+  "slowest": {
+    "name": "string",
+    "index": 0
+  }
+}

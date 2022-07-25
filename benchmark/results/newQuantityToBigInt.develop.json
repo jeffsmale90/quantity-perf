@@ -1,0 +1,39 @@
+{
+  "name": "newQuantityToBigInt",
+  "date": "2022-07-25T23:41:20.809Z",
+  "version": "develop",
+  "results": [
+    {
+      "name": "string",
+      "ops": 2320429,
+      "margin": 0.57,
+      "percentSlower": 77.6
+    },
+    {
+      "name": "number",
+      "ops": 2998529,
+      "margin": 0.27,
+      "percentSlower": 71.06
+    },
+    {
+      "name": "buffer",
+      "ops": 10359979,
+      "margin": 0.3,
+      "percentSlower": 0
+    },
+    {
+      "name": "bigint",
+      "ops": 5071471,
+      "margin": 0.97,
+      "percentSlower": 51.05
+    }
+  ],
+  "fastest": {
+    "name": "buffer",
+    "index": 2
+  },
+  "slowest": {
+    "name": "string",
+    "index": 0
+  }
+}

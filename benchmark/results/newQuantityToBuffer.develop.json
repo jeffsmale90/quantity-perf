@@ -1,0 +1,39 @@
+{
+  "name": "newQuantityToBuffer",
+  "date": "2022-07-25T23:39:08.458Z",
+  "version": "develop",
+  "results": [
+    {
+      "name": "string",
+      "ops": 2622752,
+      "margin": 0.22,
+      "percentSlower": 86.08
+    },
+    {
+      "name": "number",
+      "ops": 3405723,
+      "margin": 0.17,
+      "percentSlower": 81.92
+    },
+    {
+      "name": "buffer",
+      "ops": 18835197,
+      "margin": 0.43,
+      "percentSlower": 0
+    },
+    {
+      "name": "bigint",
+      "ops": 6489960,
+      "margin": 0.69,
+      "percentSlower": 65.54
+    }
+  ],
+  "fastest": {
+    "name": "buffer",
+    "index": 2
+  },
+  "slowest": {
+    "name": "string",
+    "index": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "staticToBigInt",
+  "date": "2022-07-25T23:40:58.754Z",
+  "version": "develop",
+  "results": [
+    {
+      "name": "string",
+      "ops": 2273483,
+      "margin": 0.26,
+      "percentSlower": 78.46
+    },
+    {
+      "name": "number",
+      "ops": 3005008,
+      "margin": 0.63,
+      "percentSlower": 71.53
+    },
+    {
+      "name": "buffer",
+      "ops": 10556717,
+      "margin": 0.42,
+      "percentSlower": 0
+    },
+    {
+      "name": "bigint",
+      "ops": 5332258,
+      "margin": 0.26,
+      "percentSlower": 49.49
+    }
+  ],
+  "fastest": {
+    "name": "buffer",
+    "index": 2
+  },
+  "slowest": {
+    "name": "string",
+    "index": 0
+  }
+}

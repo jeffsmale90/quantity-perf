@@ -1,0 +1,39 @@
+{
+  "name": "staticToString",
+  "date": "2022-07-25T23:39:30.507Z",
+  "version": "develop",
+  "results": [
+    {
+      "name": "string",
+      "ops": 1611464,
+      "margin": 0.82,
+      "percentSlower": 62.17
+    },
+    {
+      "name": "number",
+      "ops": 1924272,
+      "margin": 0.45,
+      "percentSlower": 54.82
+    },
+    {
+      "name": "buffer",
+      "ops": 4259341,
+      "margin": 0.68,
+      "percentSlower": 0
+    },
+    {
+      "name": "bigint",
+      "ops": 2734721,
+      "margin": 0.3,
+      "percentSlower": 35.79
+    }
+  ],
+  "fastest": {
+    "name": "buffer",
+    "index": 2
+  },
+  "slowest": {
+    "name": "string",
+    "index": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "newQuantityToBuffer",
+  "date": "2022-07-25T23:33:00.216Z",
+  "version": "perf_quantity-math",
+  "results": [
+    {
+      "name": "string",
+      "ops": 1901005,
+      "margin": 1.69,
+      "percentSlower": 77.87
+    },
+    {
+      "name": "number",
+      "ops": 2913249,
+      "margin": 0.29,
+      "percentSlower": 66.09
+    },
+    {
+      "name": "buffer",
+      "ops": 8590926,
+      "margin": 3.37,
+      "percentSlower": 0
+    },
+    {
+      "name": "bigint",
+      "ops": 5357965,
+      "margin": 0.26,
+      "percentSlower": 37.63
+    }
+  ],
+  "fastest": {
+    "name": "buffer",
+    "index": 2
+  },
+  "slowest": {
+    "name": "string",
+    "index": 0
+  }
+}
